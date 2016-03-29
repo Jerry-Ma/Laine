@@ -36,22 +36,19 @@
 	clear:left;
 }
 
-
-.mpris-stream:active-top{
-	background-gradient-start: rgba(76,76,76,1);
-	background-gradient-end: rgba(76,76,76,0);
-	background-gradient-direction: vertical;
+.mpris-stream{
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
+.mpris-stream:active-bottom,
+.mpris-stream:hover,
+.mpris-stream:focus,
+.mpris-stream:active-top,
 .mpris-stream:active{
-	background:rgb(76,76,76);
+	background: lightgray;
 }
 
-.mpris-stream:active-bottom{
-	background-gradient-start: rgba(76,76,76,0);
-	background-gradient-end: rgba(76,76,76,1);
-	background-gradient-direction: vertical;
-}
 
 .mpris-label-subtext {
 	font-weight: lighter;
@@ -110,7 +107,7 @@
 }
 
 .mpris-player-controls > StButton{
-	color: #e6e6e6;
+	color: #4c4c4c;
 }
 
 .mpris-player-controls > StButton:hover, 
@@ -120,8 +117,8 @@
 }
 
 .mpris-player-controls > StButton:disabled {
-	color: #3f3f3f;
-	border-color: #3f3f3f;
+	color: #eeeeee;
+	border-color: #eeeeee;
 }
 
 .mpris-player-controls > StButton:active {
