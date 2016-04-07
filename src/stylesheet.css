@@ -1,44 +1,48 @@
 .simple-stream-icon {
-	icon-size:30px;
+    icon-size:24px;
+}
+
+.mpris-stream-icon {
+    icon-size:24px;
 }
 
 .simple-stream-slider {
 }
 
 .simple-stream-container {
-	spacing:5px;
+    spacing:5px;
 }
 
 .simple-stream-label {
-	text-align: left;
+    text-align: left;
 }
 
 .stream{
-	spacing:8px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	width:20em;
+    spacing:8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    width:24em;
 }
 
 .stream:alone{
-	padding-right: 0.1em;
+    padding-right: 0.1em;
 }
 
 
 .stream:active, .simple-stream:active {
-	background-color:#4c4c4c;
+    background-color:#404040;
 }
 
 .sink-icon {
-	icon-size:18px;
-	clear:left;
+    icon-size:12px;
+    clear:left;
 }
 
 .mpris-stream{
-	padding-top: 10px;
-	padding-bottom: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 .mpris-stream:active-bottom,
@@ -46,79 +50,80 @@
 .mpris-stream:focus,
 .mpris-stream:active-top,
 .mpris-stream:active{
-	background: lightgray;
+    background: #404040;
 }
 
 
 .mpris-label-subtext {
-	font-weight: lighter;
-	font-size: 70%;
-	color: lightgray;
+    font-weight: lighter;
+    font-size: 80%;
+    color: #acacac;
+    padding-right: 0.5em;
 }
 .mpris-meta-title {
-	font-weight: bolder;
-	font-size: 110%;
+    font-weight: bolder;
+    font-size: 100%;
 }
 
 .mpris-meta-info {
-	font-weight: bolder;
-
+    font-weight: bolder;
 }
 
 .mpris-album-art {
-	icon-size:8em;
+    icon-size:8em;
 }
 
 .mpris-metadata-display {
-	spacing: 0.5em;
-	/*
-	padding-left: 0.3em;
-	padding-right:0.3em;
-	*/
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 0em;
-	padding-top: 0.1em;
+    spacing: 0.5em;
+    /*
+    padding-left: 0.3em;
+    padding-right:0.3em;
+    */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
 }
 
 .mpris-time-display {
-	spacing:0.1em;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 10px;
-	padding-top: 0.1em;
+    spacing:0.1em;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
 }
 
 .mpris-metadata-display:alone {
-	padding-top:0.8em;
-	padding-left:0.3em;
+    padding-top:0.2em;
+    padding-left:20px;
 }
 
 .mpris-info-and-controls {
-	width:14em;
+    width:18em;
 }
 
 .mpris-metadata-display:alone .mpris-info-and-controls {
-	width:2em;
+    width:2em;
 }
 
 .mpris-player-controls {
-	padding-left:0.5em;
+    padding-left:0.5em;
+    padding-top:0.2em;
 }
 
 .mpris-player-controls > StButton{
-	color: #4c4c4c;
+    color: #acacac;
 }
 
 .mpris-player-controls > StButton:hover, 
 .mpris-player-controls > StButton:focus {
-	color: white;
-	background-color: #4c4c4c;
+    color: white;
+    background-color: #4c4c4c;
 }
 
 .mpris-player-controls > StButton:disabled {
-	color: #eeeeee;
-	border-color: #eeeeee;
+    color: #eeeeee;
+    border-color: #eeeeee;
 }
 
 .mpris-player-controls > StButton:active {
@@ -129,49 +134,49 @@
 .mpris-fullscreen-button > StIcon,
 .mpris-play-order-controls > StButton > StIcon,
 .mpris-player-controls > StButton > StIcon{
-	icon-size:1.2em;
+    icon-size:1.2em;
 }
 
 .mpris-play-button {
-	border: 2px solid #5f5f5f;
-	padding: 0.5em, 1em;
+    border: 2px solid #5f5f5f;
+    padding: 0.5em, 1em;
 }
 
 .mpris-play-button:alone {
-	border-radius: 0.5em;
-	padding: 0.2em;
+    border-radius: 0.5em;
+    padding: 0.2em;
 }
 
 .mpris-previous-button {
-	border-radius: 0.5em 0em 0em 0.5em;
-	border: 2px solid #5f5f5f;
-	border-right: 0px;
-	padding:0.5em;
+    border-radius: 0.5em 0em 0em 0.5em;
+    border: 2px solid #5f5f5f;
+    border-right: 0px;
+    padding:0.5em;
 }
 
 .mpris-next-button {
-	border-radius: 0em 0.5em 0.5em 0em;
-	border: 2px solid #5f5f5f;
-	border-left: 0px;
-	padding:0.5em;
+    border-radius: 0em 0.5em 0.5em 0em;
+    border: 2px solid #5f5f5f;
+    border-left: 0px;
+    padding:0.5em;
 }
 
 .mpris-fullscreen-button {
-	border-radius: 0.5em;
-	border: 2px solid #5f5f5f;
-	padding: 0.5em;
+    border-radius: 0.5em;
+    border: 2px solid #5f5f5f;
+    padding: 0.5em;
 }
 
 .mpris-shuffle-button {
-	border-radius: 0.5em 0em 0em 0.5em;
-	border: 2px solid #5f5f5f;
-	border-right: 1px;
-	padding:0.5em;
+    border-radius: 0.5em 0em 0em 0.5em;
+    border: 2px solid #5f5f5f;
+    border-right: 1px;
+    padding:0.5em;
 }
 
 .mpris-repeat-button {
-	border-radius: 0em 0.5em 0.5em 0em;
-	border: 2px solid #5f5f5f;
-	border-left: 1px;
-	padding:0.5em;
+    border-radius: 0em 0.5em 0.5em 0em;
+    border: 2px solid #5f5f5f;
+    border-left: 1px;
+    padding:0.5em;
 }
