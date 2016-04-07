@@ -31,7 +31,7 @@
 }
 
 
-.stream:active, .simple-stream:active {
+.simple-stream:active {
     background-color:#404040;
 }
 
