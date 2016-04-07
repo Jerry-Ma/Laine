@@ -286,7 +286,7 @@ const Laine = new Lang.Class({
 		//Everything good up to this point, lets replace the built in sound indicator
 		if(Main.panel.statusArea.laine != 'undefined')
 			delete Main.panel.statusArea.laine;
-		Main.panel.addToStatusArea('laine', this);
+		Main.panel.addToStatusArea('laine', this, -1, 'right');
 		Main.panel.statusArea.aggregateMenu._volume._volumeMenu.actor.hide();
 		Main.panel.statusArea.aggregateMenu._volume._primaryIndicator.hide();
 	}
